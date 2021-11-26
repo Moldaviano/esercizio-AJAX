@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Montserrat:wght@100&family=Quicksand:wght@500&display=swap");
+
+* {
+  font-family: "Kanit", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Quicksand", sans-serif;
+}
+
+#leftContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 50%;
+}
+
+#JSONButton,
+#XMLButton {
+  position: absolute;
+  left: 50%;
+  top: 2rem;
+  transform: translateX(-50%);
+  font-size: 15px;
+  height: 35px;
+  width: 150px;
+
+  border: 1px solid grey;
+  border-radius: 2rem;
+  background-color: blue;
+  color: white;
+}
+
+table#JSONContent, table#XMLContent {
+  width: 95%;
+  padding: 10px;
+  border-collapse: collapse;
+  position: absolute;
+  left: 2.5%;
+  top: 5rem;
+}
+
+table > tr > td,
+table > tr > th {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 5px 10px;
+}
+
+/*  */
+
+#rightContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  width: 50%;
+}
